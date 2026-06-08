@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="hero">
+        <h1>Hi, I’m <span class="highlight">Mayaa</span></h1>
+        <p>Welcome to my personal portfolio site</p>
+        <a href="{{ url_for('contact') }}" class="btn">Get in Touch</a>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I’m passionate about coding, web development, and building real-world projects. 
+        This site showcases my skills, projects, and ways to connect with me.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mayaa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
